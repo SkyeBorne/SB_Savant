@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="206"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList"> Scholarly Pursuits
+                    <attribute id="Passives" type="LSString" value=""/> 
+                    <attribute id="UUID" type="guid" value="f11247bb-fc28-4944-a472-d6809eb05bfa"/> make a new UUID for each passive list. when selecting passive from list, refer to this UUID
+                </node>
+                <node id="PassiveList"> Tactician Extra Pursuits
+                    <attribute id="Passives" type="LSString" value=""/> 
+                    <attribute id="UUID" type="guid" value="fe27d0e6-aefa-40c0-8229-d153006a154a"/> make a new UUID for each passive list. when selecting passive from list, refer to this UUID
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

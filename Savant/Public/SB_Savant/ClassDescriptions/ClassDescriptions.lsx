@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="7" build="406"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription"> Main Class
+                    <attribute id="BaseHp" type="int32" value="8"/> Hit Die
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/> Copy this off of another base game class (Im using the wizard's creation post)
+   					<attribute id="ClassEquipment" type="FixedString" value="SB_EQP_CC_Savant" />
+                    <attribute id="Description" type="TranslatedString" handle="h8a0625e0g12e3g4fdcg8352g08ded97cfa4a" version="1"/> Link to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2860de4cg56bfg44bbga4fbge06bf3d9d9c2" version="1"/> Link to the .loca file
+                    <attribute id="HpPerLevel" type="int32" value="5"/> Half Hit Die + 1
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/> Have this as false if you don't need to prepare them
+                    <attribute id="Name" type="FixedString" value="SB_Savant"/> The name of your class
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/> 4 is for int. order goes from Str, Dex, Con, Int, Wis, and Cha.
+                    <attribute id="ProgressionTableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> This UUID links the Class to a specific progression table inside Progressions.lsx
+                    <attribute id="SoundClassType" type="FixedString" value="Wizard"/> Pick a class that your class would be the most similar to
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/> 4 is for int. order goes from Str, Dex, Con, Int, Wis, and Cha.
+                    <attribute id="UUID" type="guid" value="9b7041d1-34c4-4af5-96e5-dd5e1122f125"/> The ID for your class, make a new one
+					<children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/> Dialogue tag Wizard
+                        </node>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/> Dialogue tag Fighter (yes you can have multiple dialogue tags)
+                        </node>
+                    </children>
+                </node>
+				<node id="ClassDescription"> Archaeologist
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h26a32ae8g61e3g4b45gb662gfab7a70f58a7" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb652cd47g629bg4e71ga43eg0d817134392a" version="1"/> 
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="SB_Archaeologist"/> 
+                    <attribute id="ParentGuid" type="guid" value="9b7041d1-34c4-4af5-96e5-dd5e1122f125"/> 
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="defe66e2-b030-4cae-9004-d4167e4ac65e"/> 
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="96811b38-51b5-4900-8bbb-13118c33e189"/> 
+                </node>
+                <node id="ClassDescription"> Investigator
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h8880397eg76c0g4e2cga7e6gf56d1ee2c115" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd40a4eacge13bg4698gbb03g3614f02ad83d" version="1"/> 
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="SB_Investigator"/> 
+                    <attribute id="ParentGuid" type="guid" value="9b7041d1-34c4-4af5-96e5-dd5e1122f125"/> 
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7ac879b1-33ed-464b-8d45-554fa04b49a2"/> 
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="fbc40189-8b4e-4192-8108-0771873e3d80"/> 
+                </node>
+                <node id="ClassDescription"> Naturalist
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h40898156g41efg49f0g8cf2g360bbf64d24f" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="h257de0e9g3adbg4e98g880bg1617accc3e8a" version="1"/> 
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="SB_Naturalist"/> 
+                    <attribute id="ParentGuid" type="guid" value="9b7041d1-34c4-4af5-96e5-dd5e1122f125"/> 
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="68760968-be2e-4410-ad3e-fb18459d3857"/> 
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="1fdb24c4-b9c2-4631-8f9e-05bd3682a272"/> 
+                </node>
+                <node id="ClassDescription"> Physician
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h45c135ceg9ffbg45dbg9dd8g1aa4aafc7f7e" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="he687c225g6b0eg4135g8dc5gcf120325cdf1" version="1"/> 
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="SB_Physician"/> 
+                    <attribute id="ParentGuid" type="guid" value="9b7041d1-34c4-4af5-96e5-dd5e1122f125"/> 
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="bd41c5dc-ea56-4fe8-a9c5-acde1b27d1f3"/> 
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="7e32e1c5-abdf-4a75-8a9f-ecdf8fe9adf7"/> 
+                </node>
+                <node id="ClassDescription"> Tactician
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="hedd46964g2af3g4f1ag8d15gbbb388244a97" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="hef3d479cgbc47g4096g9fd7g583bc3638649" version="1"/> 
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="SB_Tactician"/> 
+                    <attribute id="ParentGuid" type="guid" value="9b7041d1-34c4-4af5-96e5-dd5e1122f125"/> 
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1e1e0aca-02ce-4d60-82fe-79e437e03c37"/> 
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="3ee1806a-7fa3-4fc7-8541-9637eab6c1f9"/> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+

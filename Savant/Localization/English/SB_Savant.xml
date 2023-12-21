@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="h2860de4cg56bfg44bbga4fbge06bf3d9d9c2" version="1">Savant</content>
+		<content contentuid="h8a0625e0g12e3g4fdcg8352g08ded97cfa4a" version="1">With a deep hunger for knowledge of all kinds, Savants are adventuring intelectuals. Armed with only their wit, they aid their allies and outwit their enemies.</content>
+	<content contentuid="hb652cd47g629bg4e71ga43eg0d817134392a" version="1">Archaeologist</content>
+		<content contentuid="h26a32ae8g61e3g4b45gb662gfab7a70f58a7" version="1">Specializing in the study of forgotten civilizations, uncharted lands, and ancient places, Archaeologists bring the light of knowledge to the dark and deadly places of the world. </content>
+	<content contentuid="hd40a4eacge13bg4698gbb03g3614f02ad83d" version="1">Investigator</content>
+		<content contentuid="h8880397eg76c0g4e2cga7e6gf56d1ee2c115" version="1">Excelling at unraveling mysteries, conspiracies, and secrets, Investigators possess an uncanny ability to read the intent of others. Their considerable minds and eye for the truth stand in the way of thieves, shapeshifters, and corrupt politicians.</content>
+	<content contentuid="h257de0e9g3adbg4e98g880bg1617accc3e8a" version="1">Naturalist</content>
+		<content contentuid="h40898156g41efg49f0g8cf2g360bbf64d24f" version="1">The Naturalist's classroom begins at the edges of civilization. They study the natural balance of ecosystems and will go to any lengths to maintain that balance. </content>
+	<content contentuid="he687c225g6b0eg4135g8dc5gcf120325cdf1" version="1">Physician</content>
+		<content contentuid="h45c135ceg9ffbg45dbg9dd8g1aa4aafc7f7e" version="1">Physicians use their considerable intellect to heal the sick and tend to the wounded. They spend their life studying anatomy and the inner workings of mortal creatures, and use this knowledge to keep their allies in top shape.</content>
+	<content contentuid="hef3d479cgbc47g4096g9fd7g583bc3638649" version="1">Tactician</content>
+		<content contentuid="hedd46964g2af3g4f1ag8d15gbbb388244a97" version="1">All successful monarchs, conquerors, and revolutions have a master Tactician that is responsible for their success in war. They are always one step ahead of their foes and have a plan for every eventuality. </content>
+	
+	<content contentuid="h61ff3ff1g7ed2g4d1fga0d7g6ca56714fbb2" version="1">Predictive Defence</content>
+		<content contentuid="h173b49dfg516eg4b12gb86agd145127c8ae7" version="1">Your observant way of fighting allows you to anticipate and dodge attacks. When calculating your Armor Class you can use your Intelligence modifier, in place of your Dexterity. Moreover, so long as you are not incapacitated, your Mark has disadvantage on any attack roll it makes against you.</content>
+	<content contentuid="h126e8d7bgae61g40c2ga5degc6386b939d4a" version="1">Adroit Analysis</content>
+		<content contentuid="hcca58afcgc6d4g44fegbb32gd3d250fc35fa" version="1">As a bonus action, you can analyze a creature you can see within 60 feet, designating it as your Mark. You use your Intelligence for Weapon Attack and Damage rolls agaisnt your mark, and you roll an Intelligence Save for Concentration Rolls for this ability. Starting at Level 2 you also add [1] extra damage to damage rolls against your mark.</content>
+	<content contentuid="h6fcf30dag4385g4187gb58cgd92bff6a6398" version="1">Analysed</content>
+		<content contentuid="h32a848e8g8513g4bafg9fb6g048ddb8d3b54" version="1">Affected entity suffers additional damage if the Savant deals damage to it.</content>
+	<content contentuid="h0786ad0cg4412g46feg95e6g7c53fb75c7c0" version="1">Savant's Analysis</content>
+		<content contentuid="h51b0394eg5f0bg460cgbdb7g318bdd2acf9e" version="1">This creature deals [1] additional damage to it's Analysed Target. It also uses Intelligence for it's Attack and Damage Rolls against it's Analysed Target.</content>	
+</contentList>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="323"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="0"/>
+                    <attribute id="Level2" type="LSString" value="1d6"/>
+                    <attribute id="Level5" type="LSString" value="1d8"/>
+                    <attribute id="Level10" type="LSString" value="1d10"/>
+                    <attribute id="Name" type="FixedString" value="SB_IntellectDie"/>
+					<attribute id="PreferredClassUUID" type="guid" value="9b7041d1-34c4-4af5-96e5-dd5e1122f125"/>
+                    <attribute id="UUID" type="guid" value="565d5ac3-4b90-4ca5-92bc-1a4d9c1434c7"/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>

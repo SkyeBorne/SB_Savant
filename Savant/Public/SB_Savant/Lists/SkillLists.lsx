@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="21"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList"> Class Skills
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Insight, Investigation, Medicine, Nature, Persusasion, Religion"/> 
+                    <attribute id="UUID" type="guid" value="79e55e73-79e1-437c-890a-c612d2933022"/> 
+                </node>
+
+				<node id="SkillList"> Archaeologist Expertise Lists
+                    <attribute id="Skills" type="LSString" value="History, Investigation, Religion"/> 
+                    <attribute id="UUID" type="guid" value="7a9ab8b0-157f-4db5-9450-dcc6b1f47a59"/> 
+                </node>
+
+				<node id="SkillList"> Investigator Expertise Lists
+                    <attribute id="Skills" type="LSString" value="Insight, Investigation"/> 
+                    <attribute id="UUID" type="guid" value="2341d6d5-63f4-4e83-8fab-b8a437143b3e"/> 
+                </node>
+
+                <node id="SkillList"> Naturalist Expertise Lists
+                    <attribute id="Skills" type="LSString" value="Nature, Survival"/> 
+                    <attribute id="UUID" type="guid" value="541488c6-8a64-465b-943b-939552dc7510"/> 
+                </node>
+
+                <node id="SkillList"> Physician Expertise Lists
+                    <attribute id="Skills" type="LSString" value="Medicine, Nature"/> 
+                    <attribute id="UUID" type="guid" value="b9a3aaa7-404f-425f-9fab-2bfc397a0a7a"/> 
+                </node>
+
+                <node id="SkillList"> Tactician Expertise Lists
+                    <attribute id="Skills" type="LSString" value="History, Persuasion"/> 
+                    <attribute id="UUID" type="guid" value="849c5a6b-8f0f-453e-8a54-1d088e726ba0"/> 
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

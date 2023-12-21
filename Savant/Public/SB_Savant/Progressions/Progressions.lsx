@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="6" build="5"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression"> Savant Level 1
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shortswords);Proficiency(SimpleWeapons)"/>
+                    <attribute id="Level" type="uint8" value="1"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_Savant_Mark_Damage;SB_PredictiveDefenceUnarmored;SB_PredictiveDefenceLight"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/> 
+                    <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectSkills(79e55e73-79e1-437c-890a-c612d2933022,2);AddSpells(80536684-cf29-4996-93cf-5f1ac32c7334,,,,AlwaysPrepared)"/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="c40581d0-fbcb-4a79-a55a-6c6b78ed7241"/> 
+                </node>
+				<node id="Progression"> Savant Level 1 Multiclass
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+					<attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="SB_Savant"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_PredictiveDefence"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(80536684-cf29-4996-93cf-5f1ac32c7334,,,,AlwaysPrepared)"/>
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/>
+                    <attribute id="UUID" type="guid" value="51b123ad-eaa1-441a-92eb-d23ba5814539"/>
+                </node>
+                <node id="Progression"> Savant Level 2
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_WondrousIntellect"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f11247bb-fc28-4944-a472-d6809eb05bfa,2,SB_ScholarlyPursuits)"/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="1a9d7a78-9428-41e1-9389-c57053fc3d6c"/> 
+                </node>
+                <node id="Progression"> Savant Level 3
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="3"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="5d077d98-4300-49f6-9eef-72c449182b0e"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass"> 
+                                    <attribute id="Object" type="guid" value="96811b38-51b5-4900-8bbb-13118c33e189"/> Archaeologist
+                                </node>
+                                <node id="SubClass"> 
+                                    <attribute id="Object" type="guid" value="fbc40189-8b4e-4192-8108-0771873e3d80"/> Investigator
+                                </node>
+                                <node id="SubClass"> 
+                                    <attribute id="Object" type="guid" value="1fdb24c4-b9c2-4631-8f9e-05bd3682a272"/> Naturalist
+                                </node>
+                                <node id="SubClass"> 
+                                    <attribute id="Object" type="guid" value="7e32e1c5-abdf-4a75-8a9f-ecdf8fe9adf7"/> Physician
+                                </node>
+                                <node id="SubClass"> 
+                                    <attribute id="Object" type="guid" value="3ee1806a-7fa3-4fc7-8541-9637eab6c1f9"/> Tactician
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression"> Savant Level 4
+                    <attribute id="AllowImprovement" type="bool" value="True"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="4"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f11247bb-fc28-4944-a472-d6809eb05bfa,1,SB_ScholarlyPursuits)"/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="2ce700be-3c75-4759-b0f9-0ee190357a34"/> 
+                </node>
+                <node id="Progression"> Savant Level 5
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="5"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_AcceleratedReflexes"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(0d1a0845-5169-40cc-8367-e7549c70d6ed,,,,AlwaysPrepared)"/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="048617c7-5cb1-4a8c-91f9-91bab6bf021d"/> 
+                </node>
+                <node id="Progression"> Savant Level 6
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="5105a456-4fb9-48ae-b86a-83f960aae5e9"/> 
+                </node>
+                <node id="Progression"> Savant Level 7
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="7"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_KeenAwareness"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="ff2ecd3c-2b30-4dd6-9ed3-6fb2f399f1f3"/> 
+                </node>
+                <node id="Progression"> Savant Level 8
+                    <attribute id="AllowImprovement" type="bool" value="True"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="8"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f11247bb-fc28-4944-a472-d6809eb05bfa,1,SB_ScholarlyPursuits)"/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="b2085a84-ee47-445d-b998-c4136b1e0532"/> 
+                </node>
+                <node id="Progression"> Savant Level 9
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="9"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(05d63487-e287-4697-b958-aa945a8cacf3,,,,AlwaysPrepared)"/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="5933b026-590c-4f8f-9ee0-7c94ecd566b2"/> 
+                </node>
+                <node id="Progression"> Savant Level 10
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="10"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_PredictiveExpert"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="afffc576-ae47-4692-8340-3fc8f3b24d23"/> 
+                </node>
+                <node id="Progression"> Savant Level 11
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="11"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_PotentObservation"/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="09fdcb3d-3fa4-45d4-9f49-7836b1419872"/> 
+                </node>
+                <node id="Progression"> Savant Level 12
+                    <attribute id="AllowImprovement" type="bool" value="True"/> 
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="12"/> 
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/> 
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f11247bb-fc28-4944-a472-d6809eb05bfa,1,SB_ScholarlyPursuits)"/> 
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="1a9d7a78-9428-41e1-9389-c57053fc3d6c"/> 
+                </node>
+                <node id="Progression"> Savant Level 13
+                    <attribute id="AllowImprovement" type="bool" value="false"/> Whether your class get a feat at his level. Does not work for level 1.
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="2"/> Class Level for this entry
+                    <attribute id="Name" type="LSString" value="SB_Savant"/> Name of the class, keep it consistent with class description
+                    <attribute id="PassivesAdded" type="LSString" value="SB_PredictiveDefence"/> most class features usually can be done with passives
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+					<attribute id="TableUUID" type="guid" value="307ad57d-09ea-4147-885e-c813b00abea6"/> 
+                    <attribute id="UUID" type="guid" value="1a9d7a78-9428-41e1-9389-c57053fc3d6c"/> 
+                </node>
+
+				<node id="Progression"> Archaeologist Subclass Progression
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_Archaeologist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_AdventuringAcademic; SB_StudentHistory"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(79e55e73-79e1-437c-890a-c612d2933022,2);SelectSkillsExpertise(7a9ab8b0-157f-4db5-9450-dcc6b1f47a59,3)"/> 
+                    <attribute id="TableUUID" type="guid" value="defe66e2-b030-4cae-9004-d4167e4ac65e"/> 
+                    <attribute id="UUID" type="guid" value="b9833909-6097-48d7-940c-b80d503bf9c1"/> 
+                </node>
+                <node id="Progression"> 
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_Archaeologist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_DaringDetermination"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+                    <attribute id="TableUUID" type="guid" value="defe66e2-b030-4cae-9004-d4167e4ac65e"/> 
+                    <attribute id="UUID" type="guid" value="ed79d210-bd19-4117-b449-93689804669c"/> 
+                </node>
+
+                <node id="Progression"> Investigator Subclass Progression
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_Investigator"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_StudentTruth;SB_RoughTumble"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(79e55e73-79e1-437c-890a-c612d2933022,2);SelectSkillsExpertise(2341d6d5-63f4-4e83-8fab-b8a437143b3e,2)"/> 
+                    <attribute id="TableUUID" type="guid" value="7ac879b1-33ed-464b-8d45-554fa04b49a2"/> 
+                    <attribute id="UUID" type="guid" value="a86c7527-ced0-4b7d-becf-11aeca747174"/> 
+                </node>
+                <node id="Progression"> 
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_Investigator"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_AstuteDefence"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+                    <attribute id="TableUUID" type="guid" value="7ac879b1-33ed-464b-8d45-554fa04b49a2"/> 
+                    <attribute id="UUID" type="guid" value="1c21ed22-ed2a-4a7e-8a6c-1df8cd24a6ca"/> 
+                </node>
+
+                <node id="Progression"> Naturalist Subclass Progression
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_Naturalist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_StudentNature;SB_Survivalist"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(79e55e73-79e1-437c-890a-c612d2933022,2);SelectSkillsExpertise(541488c6-8a64-465b-943b-939552dc7510,2)"/> 
+                    <attribute id="TableUUID" type="guid" value="68760968-be2e-4410-ad3e-fb18459d3857"/> 
+                    <attribute id="UUID" type="guid" value="714c7305-e46f-484a-a383-1e6add7e304b"/> 
+                </node>
+                <node id="Progression"> 
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_Naturalist"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(05d63487-e287-4697-b958-aa945a8cacf3,,,,AlwaysPrepared)"/> 
+                    <attribute id="TableUUID" type="guid" value="68760968-be2e-4410-ad3e-fb18459d3857"/> 
+                    <attribute id="UUID" type="guid" value="8a05fe46-2953-4567-8502-e4b70e399b1d"/> 
+                </node>
+
+                
+                <node id="Progression"> Physician Subclass Progression
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_Physician"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_StudentMedicine;SB_CombatMedic"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(79e55e73-79e1-437c-890a-c612d2933022,2);SelectSkillsExpertise(b9a3aaa7-404f-425f-9fab-2bfc397a0a7a,2); AddSpells(680fd6b0-83c1-4c4c-9afb-beb2c25f1d92,,,,AlwaysPrepared)"/> 
+                    <attribute id="TableUUID" type="guid" value="bd41c5dc-ea56-4fe8-a9c5-acde1b27d1f3"/> 
+                    <attribute id="UUID" type="guid" value="61ba3272-d430-42cd-b9a9-54c0abe7593d"/> 
+                </node>
+                <node id="Progression"> 
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_Physician"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_FieldDoctor"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+                    <attribute id="TableUUID" type="guid" value="bd41c5dc-ea56-4fe8-a9c5-acde1b27d1f3"/> 
+                    <attribute id="UUID" type="guid" value="2652ad55-2144-4de8-91c5-f3b519b9a6c4"/>
+                </node>
+
+                
+                <node id="Progression"> Tactician Subclass Progression
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="SB_Tactician"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="Boosts" type="LSString" value="Proficiency(MediumArmor);Proficiency(Shields)"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_StudentWar; SB_TacticalCommander"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(79e55e73-79e1-437c-890a-c612d2933022,2);SelectSkillsExpertise(849c5a6b-8f0f-453e-8a54-1d088e726ba0,2);SelectPassives(fe27d0e6-aefa-40c0-8229-d153006a154a,1,SB_TacticianPursuits); AddSpells(152cfe44-4a6b-41ff-a984-5d0742781005,,,,AlwaysPrepared)"/> 
+                    <attribute id="TableUUID" type="guid" value="1e1e0aca-02ce-4d60-82fe-79e437e03c37"/> 
+                    <attribute id="UUID" type="guid" value="84e36950-951e-46bb-a005-7713b1a6805f"/> 
+                </node>
+                <node id="Progression"> 
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="SB_Tactician"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_Unwavering"/>
+                    <attribute id="Selectors" type="LSString" value=""/> 
+                    <attribute id="TableUUID" type="guid" value="1e1e0aca-02ce-4d60-82fe-79e437e03c37"/> 
+                    <attribute id="UUID" type="guid" value="f0c6d8f7-d973-4edf-8d93-5bdfc51de11f"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

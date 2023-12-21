@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="5" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+				<node id="SpellList"> Savant Base Class Spells
+                    <attribute id="Spells" type="LSString" value="SB_AdroitAnalysis"/> 
+                    <attribute id="UUID" type="guid" value="80536684-cf29-4996-93cf-5f1ac32c7334"/> 
+                </node>
+				<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="SB_QuickStudy"/> 
+                    <attribute id="UUID" type="guid" value="0d1a0845-5169-40cc-8367-e7549c70d6ed"/> 
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="SB_FlashofBrilliance"/> 
+                    <attribute id="UUID" type="guid" value="05d63487-e287-4697-b958-aa945a8cacf3"/> 
+                </node>
+                
+                <node id="SpellList"> Survivalist Adapt
+                    <attribute id="Spells" type="LSString" value="SB_AdaptOvercome"/> 
+                    <attribute id="UUID" type="guid" value="8a05fe46-2953-4567-8502-e4b70e399b1d"/> 
+                </node>
+
+                <node id="SpellList"> Physician Level 3 Spells
+                    <attribute id="Spells" type="LSString" value="SB_AdrenalineJolt; SB_DressWounds; SB_HealingSurge; SB_SurgicalPrecision"/> 
+                    <attribute id="UUID" type="guid" value="680fd6b0-83c1-4c4c-9afb-beb2c25f1d92"/> 
+                </node>
+
+                <node id="SpellList"> Tactician Level 3 Spells
+                    <attribute id="Spells" type="LSString" value="SB_AttackOrder; SB_DefenciveOrder; SB_ManeuveringOrder; SB_SteadfastOrder"/>
+                    <attribute id="UUID" type="guid" value="152cfe44-4a6b-41ff-a984-5d0742781005"/> 
+                </node>               
+			</children>
+        </node>
+    </region>
+</save>
