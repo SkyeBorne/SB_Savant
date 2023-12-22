@@ -31,7 +31,7 @@ data "DisplayName" "h126e8d7bgae61g40c2ga5degc6386b939d4a;2"
 data "Icon" "Skill_Warlock_BindPactWeapon"
 data "StackId" "PACT_BLADE"
 data "BoostContext" "OnAttack;OnDamage"
-data "Boosts" "IF(HasStatus('SB_Savant_MARK',context.Target,context.Source)):WeaponAttackRollAbilityOverride(Intelligence)"
+data "Boosts" "IF(HasStatus('SB_Savant_MARK',context.Target)):WeaponAttackRollAbilityOverride(Intelligence)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "IsUnique" "1"
 
