@@ -1,4 +1,4 @@
-/// Savant Base Class Passives ///
+/// Savant Level 1 Passives ///
 
 new entry "SB_PredictiveDefenceUnarmored"
 type "PassiveData"
@@ -12,7 +12,7 @@ data "Boosts" "ACOverrideFormula(10,true,Intelligence)"
 
 new entry "SB_PredictiveDefenceLight"
 type "PassiveData"
-data "Properties" "Hidden"
+data "Properties" "IsHidden"
 data "DisplayName" "h61ff3ff1g7ed2g4d1fga0d7g6ca56714fbb2"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "SB_LightArmor(context.Source) or (SB_MediumArmor(context.Source) and (HasPassive('MAG_ExoticMaterial_MediumArmor_Passive', context.Source) or HasPassive('MAG_ExoticMaterial_Druid_Passive', context.Source)))"
@@ -20,25 +20,23 @@ data "Boosts" "IF(ConditionResult(SB_DifferenceDexInt(context.Source.Intelligenc
 
 new entry "SB_PredictiveDefenceMedium"
 type "PassiveData"
-data "Properties" "Hidden"
-data "DisplayName" "h61ff3ff1g7ed2g4d1fga0d7g6ca56714fbb2"
-data "BoostContext" "OnEquip;OnCreate"
-data "BoostConditions" "SB_MediumArmor(context.Source) and (HasPassive('MAG_ExoticMaterial_MediumArmor_Passive', context.Source) or HasPassive('MAG_ExoticMaterial_Druid_Passive', context.Source))"
-
-new entry "SB_PredictiveDefenceMediumMAM"
-type "PassiveData"
-data "Properties" "Hidden"
+data "Properties" "IsHidden"
 data "DisplayName" "h61ff3ff1g7ed2g4d1fga0d7g6ca56714fbb2"
 data "BoostContext" "OnEquip;OnCreate"
 data "BoostConditions" "SB_MediumArmor(context.Source) and not (HasPassive('MAG_ExoticMaterial_MediumArmor_Passive', context.Source) or HasPassive('MAG_ExoticMaterial_Druid_Passive', context.Source))"
 data "Boosts" "IF(ConditionResult(SB_DifferenceDexInt(context.Source.Intelligence, context.Source.Dexterity) == 1)):AC(1);IF(ConditionResult(SB_DifferenceDexInt(context.Source.Intelligence, context.Source.Dexterity) == 2)):AC(2);IF(ConditionResult(SB_DifferenceDexInt(context.Source.Intelligence, context.Source.Dexterity) > 2) and not HasPassive('MediumArmorMaster', context.Source)):AC(2);IF((ConditionResult(SB_DifferenceDexInt(context.Source.Intelligence, context.Source.Dexterity) > 3) or ConditionResult(SB_DifferenceDexInt(context.Source.Intelligence, context.Source.Dexterity) == 3)) and HasPassive('MediumArmorMaster', context.Source)):AC(3)"
 
-new entry "SB_Savant_Mark_Damage"
+new entry "SB_Savant_Mark_IntforDex"
 type "PassiveData"
 data "DisplayName" "h126e8d7bgae61g40c2ga5degc6386b939d4a;1"
 data "Icon" "PassiveFeature_HuntersMark"
-data "PriorityOrder" "2"
-data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(SB_Shout_Mark_Weapon);IF(HasStatus('SB_Savant_MARK',context.Target,context.Source)):WeaponAttackRollAbilityOverride(Intelligence);IF(HasStatus('SB_Savant_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)):CharacterWeaponDamage(LevelMapValue(SB_IntellectDie))"
+data "Properties" "IsHidden"
+data "Boosts" "IF(IsWeaponAttack(context.Source) and (WieldingFinesseWeapon(context.Source) or IsRangedWeaponAttack(context.Source)) and ConditionResult(SB_DifferenceDexInt(context.Source.Dexterity, context.Source.Strength) > 0) and HasStatus('SB_Savant_MARK',context.Target)):RollBonus(Attack, IntelligenceModifier-DexterityModifier);IF(IsWeaponAttack(context.Source) and (WieldingFinesseWeapon(context.Source) or IsRangedWeaponAttack(context.Source)) and ConditionResult(SB_DifferenceDexInt(context.Source.Dexterity, context.Source.Strength) > 0) and HasStatus('SB_Savant_MARK',context.Target)):DamageBonus(IntelligenceModifier-DexterityModifier)"
 
+new entry "SB_Savant_Mark_IntforStr"
+type "PassiveData"
+data "DisplayName" "h126e8d7bgae61g40c2ga5degc6386b939d4a;1"
+data "Icon" "PassiveFeature_HuntersMark"
+data "Properties" "IsHidden"
+data "Boosts" "IF(IsMeleeWeaponAttack(context.Source) and (not WieldingFinesseWeapon(context.Source) or (ConditionResult(SB_DifferenceDexInt(context.Source.Strength, context.Source.Dexterity) > 0) or ConditionResult(SB_DifferenceDexInt(context.Source.Strength, context.Source.Dexterity) == 0))) and HasStatus('SB_Savant_MARK',context.Target)):RollBonus(Attack, IntelligenceModifier-StrengthModifier);IF(IsMeleeWeaponAttack(context.Source) and (not WieldingFinesseWeapon(context.Source) or (ConditionResult(SB_DifferenceDexInt(context.Source.Strength, context.Source.Dexterity) > 0) or ConditionResult(SB_DifferenceDexInt(context.Source.Strength, context.Source.Dexterity) == 0))) and HasStatus('SB_Savant_MARK',context.Target)):DamageBonus(IntelligenceModifier-StrengthModifier)"
 

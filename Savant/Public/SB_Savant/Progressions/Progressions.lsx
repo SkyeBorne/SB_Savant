@@ -9,7 +9,7 @@
                     <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(Shortswords);Proficiency(SimpleWeapons)"/>
                     <attribute id="Level" type="uint8" value="1"/> 
                     <attribute id="Name" type="LSString" value="SB_Savant"/> 
-                    <attribute id="PassivesAdded" type="LSString" value="SB_Savant_Mark_Damage;SB_PredictiveDefenceUnarmored;SB_PredictiveDefenceLight;SB_PredictiveDefenceMedium;SB_PredictiveDefenceMediumMAM"/> 
+                    <attribute id="PassivesAdded" type="LSString" value="SB_PredictiveDefenceUnarmored;SB_PredictiveDefenceLight;SB_PredictiveDefenceMedium;SB_Savant_Mark_IntforDex;SB_Savant_Mark_IntforStr"/> 
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/> 
                     <attribute id="Selectors" type="LSString" value="SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectSkills(79e55e73-79e1-437c-890a-c612d2933022,2);AddSpells(80536684-cf29-4996-93cf-5f1ac32c7334,,,,AlwaysPrepared)"/> 
@@ -22,7 +22,7 @@
                     <attribute id="IsMulticlass" type="bool" value="true"/>
 					<attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="SB_Savant"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SB_PredictiveDefence"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SB_PredictiveDefenceUnarmored;SB_PredictiveDefenceLight;SB_PredictiveDefenceMedium;SB_Savant_Mark_IntforDex;SB_Savant_Mark_IntforStr"/> 
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(80536684-cf29-4996-93cf-5f1ac32c7334,,,,AlwaysPrepared)"/>

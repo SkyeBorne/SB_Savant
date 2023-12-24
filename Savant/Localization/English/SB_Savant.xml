@@ -16,7 +16,7 @@
 	<content contentuid="h61ff3ff1g7ed2g4d1fga0d7g6ca56714fbb2" version="1">Predictive Defence</content>
 		<content contentuid="h173b49dfg516eg4b12gb86agd145127c8ae7" version="1">Your observant way of fighting allows you to anticipate and dodge attacks. When calculating your Armor Class you can use your Intelligence modifier, in place of your Dexterity. Moreover, so long as you are not incapacitated, your Mark has disadvantage on any attack roll it makes against you.</content>
 	<content contentuid="h126e8d7bgae61g40c2ga5degc6386b939d4a" version="1">Adroit Analysis</content>
-		<content contentuid="hcca58afcgc6d4g44fegbb32gd3d250fc35fa" version="1">As a bonus action, you can analyze a creature you can see within 60 feet, designating it as your Mark. You use your Intelligence for Weapon Attack and Damage rolls agaisnt your mark, and you roll an Intelligence Save for Concentration Rolls for this ability. Starting at Level 2 you also add [1] extra damage to damage rolls against your mark.</content>
+		<content contentuid="hcca58afcgc6d4g44fegbb32gd3d250fc35fa" version="1">As a bonus action, you can analyze a creature you can see within 60 feet, designating it as your Mark. You use your Intelligence for Weapon Attack and Damage rolls agaisnt your mark, and you roll an Intelligence Save for Concentration Rolls for this ability.</content>
 	<content contentuid="h6fcf30dag4385g4187gb58cgd92bff6a6398" version="1">Analysed</content>
 		<content contentuid="h32a848e8g8513g4bafg9fb6g048ddb8d3b54" version="1">Affected entity suffers additional damage if the Savant deals damage to it.</content>
 	<content contentuid="h0786ad0cg4412g46feg95e6g7c53fb75c7c0" version="1">Savant's Analysis</content>
